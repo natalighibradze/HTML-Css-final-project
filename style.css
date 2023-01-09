@@ -1,0 +1,655 @@
+body{
+background-color:var(--color-grey); 
+}
+
+:root{
+--main-color:rgb(38, 38, 38);
+--corp-color: rgb(255, 255, 255);
+--color-grey: rgb(159, 152, 152); 
+}
+
+.natali{
+color: var(--main-color);
+background-color: transparent;
+text-transform: uppercase;
+font-size: 16px;
+position: absolute;
+margin-top: 1.2cm;
+letter-spacing: 0.2mm;
+font-family: Espera, sans-serif;
+text-decoration: none;
+left:2cm;
+font-weight: 700;
+}
+
+.Header-about{
+color: var(--main-color);
+text-decoration: none;
+background-color: transparent;
+font-family: Espera, sans-serif;
+font-size: 18px;
+position: absolute;
+right: 14cm;
+margin-top: 1.3cm;
+font-weight: 700;
+letter-spacing: 0.2mm;
+text-transform: uppercase;
+}
+
+.header-link{
+color:  var(--main-color);
+text-decoration: none;
+background-color: transparent;
+font-family: Espera, sans-serif;
+font-size: 18px;
+position: absolute;
+right: 19cm;
+margin-top: 1.3cm;
+font-weight: 700;
+letter-spacing: 0.2mm;
+text-transform: uppercase;
+}
+
+.header-work{
+color:  var(--main-color);
+text-decoration: none;
+background-color: transparent;
+font-family: Espera, sans-serif;
+font-size: 18px;
+right: 7cm;
+margin-top: 1.3cm;
+font-weight: 700;
+letter-spacing: 0.2mm; 
+text-transform: uppercase;
+position: absolute;
+}
+
+h1{
+position: absolute;
+margin-top: 6.7cm;
+left: 3cm;
+font-weight: 545;
+text-transform: uppercase;
+}
+
+h2{
+position: absolute;
+margin-top: 8cm; 
+left: 3cm;
+font-weight: 500;
+line-height: .875;
+text-transform: uppercase;
+font-family: Espera, sans-serif;
+}
+.about-me{
+position: absolute;
+margin-top: 10cm;
+width: 500px;
+left: 1.7cm;
+}
+
+.status{
+position: absolute;
+margin-top: 17cm;
+font-weight: 500;
+line-height: .875;
+font-size: 50px;
+left: 20cm;
+font-family: Espera, sans-serif;
+color: var(--main-color);
+}
+.ft{
+position: absolute;
+margin-top: 20cm;
+font-weight: 500;
+font-size: 20px;
+left: 7cm;
+}
+
+span{
+position: absolute;
+margin-top: 20cm;
+font-size: 60px;
+left: 4cm;
+}
+.first{
+position: absolute;
+margin-top: 26cm;
+font-size: 24px;
+left: 4cm;
+}
+.text{
+position: absolute;
+margin-top: 25cm;
+font-size: 25px;
+line-height: 1.25;
+left: 14.7cm;
+}
+.story{
+position: absolute;
+margin-top: 30cm;
+font-size: 25px;
+line-height: 1.25;
+left: 14.7cm;
+}
+.main-text{
+position: absolute;
+margin-top: 34cm;
+font-size: 25px;
+line-height: 1.25;
+left: 14.7cm;
+}
+.ui{
+position: absolute;
+margin-top: 40cm;
+font-size: 20px;
+line-height: 1.25;
+left: 10cm;
+}
+.ux{
+position: absolute;
+margin-top: 43cm;
+font-size: 20px;
+line-height: 1.32;
+font-family: Espera, sans-serif;
+left: 21cm;
+}
+.underline{
+position: absolute;
+margin-top: 47cm;
+font-size: 20px;
+line-height: 1.2;
+left: 21cm;
+color: var(--main-color);
+}
+.pagei{
+position: absolute;
+margin-top: 48cm;
+left:2cm;
+font-size: 24px;
+
+}
+.project{
+position: absolute;
+margin-top: 65cm;
+left: 3cm;
+line-height: 1.18;
+font-size: 20px;
+text-transform: uppercase;
+font-weight: 500;
+font-family: Espera, sans-serif;
+text-decoration: underline;
+color: var(--main-color);
+}
+.service{
+position: absolute;
+margin-top: 53cm;
+left: 13cm;
+line-height: 1.18;
+font-size: 30px;
+}
+.grey{
+width: 620px;
+position: absolute;
+margin-top: 60cm;
+height: 300px;
+border-radius: 15px;
+}
+button{
+width: 100px;
+height: 40px;
+background-color: transparent;
+border-radius: 20px;
+padding-left: 2cm;
+position: absolute;
+left: 35.3cm;
+border-color: rgb(0, 0, 0);
+margin-top: 1cm;
+border: none;
+}
+.gverdi{
+position: absolute;
+color: var(--main-color);
+margin-top: 67cm;
+left: 3cm;
+font-size: 24px;
+}
+.fourth{
+position: absolute;
+margin-top: 110cm;
+color: var(--main-color);
+left: 3cm;
+font-size: 24px;
+}
+.sakontakto{
+margin-top: 3cm;
+position: absolute;
+color: var(--main-color);
+left: 3cm;
+font-size: 24px;
+font-weight: 700;
+}
+.feel{
+position: absolute;
+color: var(--main-color);
+font-size: 24px;
+margin-top: 5cm;
+left: 3cm;
+}
+.form-control{
+    position: absolute;
+    background-color: transparent;
+    border-color: var(--main-color);
+    margin-top: 8cm;
+    left: 13cm;
+    border-radius: 15px;
+    height: 50px;
+    width: 260px;
+    }
+.form-controll{
+left: 13cm;
+border-radius: 15px;
+height: 50px;
+width: 260px;
+position: absolute;
+background-color: transparent;
+border-color: var(--main-color);
+margin-top: 10cm;
+}
+.form-controlll{
+left: 13cm;
+border-radius: 15px;
+height: 70px;
+width: 260px;
+position: absolute;
+background-color: transparent;
+border-color: var(--main-color);
+margin-top: 12cm;   
+}
+.linkedin{
+color: var(--main-color);
+position: absolute;
+margin-top: 75cm;
+left: 13cm;
+font-weight: 700;
+font-size: 20px;
+text-decoration: none;
+}
+.senditon{
+margin-top: 15cm;
+position: absolute;
+color: var(--main-color);
+left: 15cm;
+font-size: 24px;
+text-decoration: none;
+}
+.contactt{
+color: var(--main-color);
+position: absolute;
+margin-top: 75cm;
+left: 18cm;
+font-weight: 700;
+font-size: 20px;
+text-decoration: none 
+}
+.dropbtn {
+background-color: transparent;
+color: var(--main-color);
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+width: 100px;
+border-radius: 12px;
+font-weight: 500;
+font-size: 20px;
+margin-top: 0.8cm;
+letter-spacing: 0.2mm;
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: var(--main-color);
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+left: 34cm;
+margin-top: 2.2cm;
+}
+.dropdown-content a {
+color: var(--corp-color);
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover {
+background-color: var(--main-color);
+left: 15cm;
+position: absolute;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.dropdown:hover .dropbtn {
+background-color: var(--color-grey); 
+}
+.linkedin:hover{
+background-color: var(--main-color);
+border-radius: 5px;
+color: var(--corp-color);
+}
+.natali:hover{
+color: var(--main-color);
+background-color: var(--color-grey);    
+}
+.Header-about:hover{
+color: var(--main-color);
+background-color: var(--color-grey);  
+}
+.header-link:hover{
+color: var(--main-color);
+background-color: var(--color-grey);  
+}
+.header-work:hover{
+color: var(--main-color);
+background-color: var(--color-grey);  
+}
+.underline:hover{
+color: var(--main-color);
+background-color: var(--color-grey); 
+}
+.project:hover{
+color: var(--main-color);
+background-color: var(--color-grey);  
+}
+.senditon:hover{
+color: var(--main-color);
+background-color: var(--corp-color) ; 
+}
+.contactt:hover{
+background-color: var(--main-color);
+border-radius: 5px;
+color: var(--corp-color);  
+}
+.working{
+position: absolute;
+margin-top: 70cm;
+left: 2.2cm;
+text-transform: uppercase;
+font-size: 22px;
+}
+.portfolio{
+position: absolute;
+margin-top: 73cm;
+left: 4cm;
+font-size: 22px;
+}
+.link{
+position: absolute;
+margin-top: 73cm;
+left: 19.5cm; 
+color: var(--main-color);
+font-weight: 700;
+font-size: 20px;
+}
+.number{
+position: absolute;
+margin-top: 17cm;
+left: 6cm;
+font-size: 22px;
+}
+.nomeri{
+position: absolute;
+margin-top: 17cm;
+left: 19cm;
+font-size: 22px;  
+color: var(--main-color);
+}
+.nomeri:hover{
+background-color: var(--main-color);
+color: var(--corp-color);
+}
+.school{
+position: absolute;
+margin-top: 55.9cm;
+font-size: 22px;
+left: 3cm;
+width: 600px;
+}
+.sakontakto{
+left: 1cm;
+position: absolute;
+}
+.uni{
+position: absolute;
+margin-top: 58cm;
+left: 3cm;
+font-size: 22px;
+width: 1090px;
+}
+.stud{
+position: absolute;
+margin-top: 60.5cm;
+left: 2.9cm;
+font-size: 22px;
+width: 790px;
+}
+.question{
+position: absolute;
+margin-top: 75cm;
+left: 7cm;
+font-size: 20px;
+font-weight: 700;
+text-decoration: none;
+color: var(--main-color);
+}
+.question:hover{
+background-color: var(--main-color);
+border-radius: 5px;
+color: var(--corp-color);
+}
+
+@media only screen and (max-width: 768px)
+{
+.first{
+left: 2cm;
+margin-top: 20cm;
+}
+.stud{
+width: 150px;
+position: absolute;
+left: 1cm;
+width: 200px;
+margin-top: 65.5cm;
+}
+.about-me{
+height: auto;
+}
+.header-link{
+position: absolute;
+left: 3.3cm;
+margin-top: 1.2cm;
+}
+.form-control{
+left: 1cm;
+position: absolute;
+margin-top: 9.5cm;
+}
+.school{
+position: absolute;
+left: 1cm;
+width: 300px;
+}
+.header-work{
+position: absolute;
+left: 8.2cm;
+margin-top: 1.2cm;
+}
+.uni{
+position: absolute;
+left: 1cm;
+width: 300px;
+}
+.Header-about{
+position: absolute;
+left: 6cm;
+margin-top: 1.2cm;
+}
+h1{
+position: absolute;
+margin-top: 5cm;
+}
+.form-controll{
+position: absolute;
+left: 1cm;
+margin-top: 12cm;
+}
+h2{
+position: absolute;
+margin-top: 7cm;
+letter-spacing: 0.2mm;
+line-height: 7mm;
+}
+.pagei{
+position: absolute;
+margin-top: 48.5cm;
+left: 1.5cm;
+}
+.text{
+position: absolute;
+font-size: 24px;
+margin-top: 23cm;
+width: 300px;
+left: 2cm;
+}
+.status{
+display: inline-block;
+}
+.story{
+position: absolute;
+margin-top: 30cm;
+font-size: 20px;
+width: 300px;
+left: 2cm;
+}
+.main-text{
+position: absolute;
+margin-top: 35cm;
+font-size: 20px;
+width: 300px;
+left: 2cm;
+}
+.ui{
+position: absolute;
+margin-top: 40cm;
+font-size: 20px;
+width: 300px;
+left: 2cm;
+}
+.ux{
+position: absolute;
+margin-top: 43cm;
+font-size: 20px;
+width: 300px;
+left: 2cm;
+}
+.underline{
+position: absolute;
+margin-top: 48cm;
+width: 300px;
+left: 4cm;
+}  
+.project{
+margin-top: 77cm;
+position: absolute;
+width: 300px;
+left: 1.2cm;
+}
+.service{
+margin-top: 53cm;
+position: absolute;
+width: 300px;
+left: 1cm;
+}
+.senditon{
+position: absolute;
+width: 200px;
+left: 2cm;
+margin-top: 17cm;
+}
+.contactt{
+margin-top: 90.8cm;
+position: absolute;
+left: 7cm;
+width: 200px;
+}
+.form-controlll{
+position: absolute;
+left: 1cm;
+margin-top: 14.6cm;
+}
+.working{
+position: absolute;
+margin-top: 80cm;
+width: 300px;
+left: 1.5cm;
+}
+.portfolio{
+position: absolute;
+margin-top: 88cm;
+width: 500px;
+left: 1.5cm;
+width: 200px
+}
+.link{
+position: absolute;
+left: 9.5cm;
+margin-top: 89.7cm;
+left: 7.8cm;
+}
+.linkedin{
+position: absolute;
+margin-top: 90.8cm;
+left: 2.8cm; 
+}
+.feel{
+position: absolute;
+left: 1cm;
+width: 90px;
+}
+.number{
+position: absolute;
+margin-top: 19cm;
+left: 1cm;
+width: 160px;
+}
+.nomeri{
+left: 4cm;
+position: absolute;
+margin-top: 21cm;
+}
+.gverdi{
+position: absolute;
+margin-top: 75cm;
+left: 1.5cm;
+}
+.question{
+position: absolute;
+margin-top: 90.8cm;
+left: 1.5cm;
+}
+.about-me{
+position: absolute;
+width: 400px;
+left: 0.01cm;
+}
+.natali{
+position: absolute;
+left: 0.01cm;
+width: 40px;
+}
+}
